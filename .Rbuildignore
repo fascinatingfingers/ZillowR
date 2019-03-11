@@ -1,6 +1,3 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^scratch$
-^README-.*\.png$
-^README\.Rmd$
-^cran-comments\.md$
