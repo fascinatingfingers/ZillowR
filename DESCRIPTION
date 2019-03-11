@@ -12,12 +12,8 @@ Description: Zillow, an online real estate company, provides real estate and
 License: GPL-3
 URL: https://gitlab.com/fascinatingfingers/zillowr
 BugReports: https://gitlab.com/fascinatingfingers/zillowr/issues
-Imports: 
-    methods,
-    RCurl,
-    utils,
-    XML
 Suggests: 
     testthat
 LazyData: TRUE
-RoxygenNote: 5.0.1
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1

@@ -21,15 +21,15 @@ default: false).}
 }
 \value{
 A named list with the following elements:
-    \describe{
-        \item{\strong{request}}{a list with the request parameters}
-        \item{\strong{message}}{a list of status code(s) and message(s)
-            returned by the API}
-        \item{\strong{response}}{an XMLNode with the API-specific response
-            values. At this time, no further coercion is performed, so you
-            may have to use functions from the \code{XML} package to extract
-            the desired output.}
-    }
+\describe{
+\item{\strong{request}}{a list with the request parameters}
+\item{\strong{message}}{a list of status code(s) and message(s)
+returned by the API}
+\item{\strong{response}}{an XMLNode with the API-specific response
+values. At this time, no further coercion is performed, so you
+may have to use functions from the \code{XML} package to extract
+the desired output.}
+}
 }
 \description{
 For a specified Zillow property identifier (zpid), the GetZestimate API
@@ -37,13 +37,13 @@ returns:
 }
 \details{
 \itemize{
-  \item The most recent property Zestimate
-  \item The date the Zestimate was computed
-  \item The valuation range
-  \item The Zestimate ranking within the property's ZIP code.
-  \item The full property address and geographic location (latitude/longitude)
-      and a set of identifiers that uniquely represent the region (ZIP code,
-      city, county & state) in which the property exists.
+\item The most recent property Zestimate
+\item The date the Zestimate was computed
+\item The valuation range
+\item The Zestimate ranking within the property's ZIP code.
+\item The full property address and geographic location (latitude/longitude)
+and a set of identifiers that uniquely represent the region (ZIP code,
+city, county & state) in which the property exists.
 }
 
 The GetZestimate API will only surface properties for which a Zestimate
@@ -58,4 +58,3 @@ coverage.
 GetZestimate(zpid = 48749425)
 GetZestimate(zpid = 48749425, rentzestimate = TRUE)}
 }
-

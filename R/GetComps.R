@@ -22,7 +22,7 @@
 #'             returned by the API}
 #'         \item{\strong{response}}{an XMLNode with the API-specific response
 #'             values. At this time, no further coercion is performed, so you
-#'             may have to use functions from the \code{XML} package to extract
+#'             may have to use functions from the `XML` package to extract
 #'             the desired output.}
 #'     }
 #'
