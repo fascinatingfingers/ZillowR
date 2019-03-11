@@ -1,9 +1,8 @@
 ^.*\.Rproj$
+^\.Rproj\.user$
+^scratch$
 ^README-.*\.png$
 ^README\.Rmd$
-^\.RData$
-^\.Rhistory$
 ^\.Rprofile$
-^\.Rproj\.user$
-^cran-comments\.md$
 ^packrat/
+^cran-comments\.md$
