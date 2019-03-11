@@ -3,6 +3,4 @@
 ^scratch$
 ^README-.*\.png$
 ^README\.Rmd$
-^\.Rprofile$
-^packrat/
 ^cran-comments\.md$
