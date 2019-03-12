@@ -1,9 +1,4 @@
 ^.*\.Rproj$
-^README-.*\.png$
-^README\.Rmd$
-^\.RData$
-^\.Rhistory$
-^\.Rprofile$
 ^\.Rproj\.user$
-^cran-comments\.md$
-^packrat/
+^scratch$
+^\.gitlab-ci\.yml$

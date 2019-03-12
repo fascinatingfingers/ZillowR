@@ -24,15 +24,15 @@ default: false).}
 }
 \value{
 A named list with the following elements:
-    \describe{
-        \item{\strong{request}}{a list with the request parameters}
-        \item{\strong{message}}{a list of status code(s) and message(s)
-            returned by the API}
-        \item{\strong{response}}{an XMLNode with the API-specific response
-            values. At this time, no further coercion is performed, so you
-            may have to use functions from the \code{XML} package to extract
-            the desired output.}
-    }
+\describe{
+\item{\strong{request}}{a list with the request parameters}
+\item{\strong{message}}{a list of status code(s) and message(s)
+returned by the API}
+\item{\strong{response}}{an XMLNode with the API-specific response
+values. At this time, no further coercion is performed, so you
+may have to use functions from the \code{XML} package to extract
+the desired output.}
+}
 }
 \description{
 The GetDeepComps API returns a list of comparable recent sales for a
@@ -46,4 +46,3 @@ call also returns rich property data for the comparables.
 GetDeepComps(zpid = 48749425, count = 5)
 GetDeepComps(zpid = 48749425, count = 5, rentzestimate = TRUE)}
 }
-

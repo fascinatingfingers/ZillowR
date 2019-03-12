@@ -17,15 +17,15 @@ information. Required.}
 }
 \value{
 A named list with the following elements:
-    \describe{
-        \item{\strong{request}}{a list with the request parameters}
-        \item{\strong{message}}{a list of status code(s) and message(s)
-            returned by the API}
-        \item{\strong{response}}{an XMLNode with the API-specific response
-            values. At this time, no further coercion is performed, so you
-            may have to use functions from the \code{XML} package to extract
-            the desired output.}
-    }
+\describe{
+\item{\strong{request}}{a list with the request parameters}
+\item{\strong{message}}{a list of status code(s) and message(s)
+returned by the API}
+\item{\strong{response}}{an XMLNode with the API-specific response
+values. At this time, no further coercion is performed, so you
+may have to use functions from the \code{XML} package to extract
+the desired output.}
+}
 }
 \description{
 For a specified property, the GetUpdatedPropertyDetails API returns all of
@@ -34,17 +34,16 @@ set contains the following attributes:
 }
 \details{
 \itemize{
-  \item Property address
-  \item Zillow property identifier
-  \item Posting details such as the agent name, MLS number, price, and
-      posting type (For Sale or Make Me Move(tm))
-  \item Up to five photos of the property
-  \item Updated home facts such as beds, baths, square footage, home
-      description, and neighborhood and school names
+\item Property address
+\item Zillow property identifier
+\item Posting details such as the agent name, MLS number, price, and
+posting type (For Sale or Make Me Move(tm))
+\item Up to five photos of the property
+\item Updated home facts such as beds, baths, square footage, home
+description, and neighborhood and school names
 }
 }
 \examples{
 \dontrun{
 GetUpdatedPropertyDetails(zpid = 48749425)}
 }
-

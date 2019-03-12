@@ -1,4 +1,5 @@
-.RData
-.Rhistory
 .Rproj.user
-packrat/lib*/
+.Rhistory
+.RData
+.Ruserdata
+/scratch/*

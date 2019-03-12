@@ -1,11 +1,8 @@
-Package: ZillowR
 Type: Package
+Package: ZillowR
 Title: R Interface to Zillow Real Estate and Mortgage Data API
 Version: 0.1.0
-Date: 2016-03-26
-Author: Justin Brantley <fascinatingfingers@icloud.com>
-Maintainer: Justin Brantley <fascinatingfingers@icloud.com>
-URL: https://github.com/fascinatingfingers/ZillowR
+Authors@R: person('Justin', 'Brantley', email = 'fascinatingfingers@icloud.com', role = c('aut', 'cre'))
 Description: Zillow, an online real estate company, provides real estate and
     mortgage data for the United States through a REST API. The ZillowR package
     provides an R function for each API service, making it easy to make API
@@ -13,12 +10,14 @@ Description: Zillow, an online real estate company, provides real estate and
     See <http://www.zillow.com/howto/api/APIOverview.htm> for the Zillow API
     Documentation.
 License: GPL-3
-LazyData: TRUE
-Imports:
+URL: https://gitlab.com/fascinatingfingers/zillowr
+BugReports: https://gitlab.com/fascinatingfingers/zillowr/issues
+Imports: 
     methods,
-    utils,
     RCurl,
     XML
-Suggests:
+Suggests: 
     testthat
-RoxygenNote: 5.0.1
+LazyData: TRUE
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1

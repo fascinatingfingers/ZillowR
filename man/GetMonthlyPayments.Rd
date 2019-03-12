@@ -32,15 +32,15 @@ property tax and hazard insurance data will not be returned.}
 }
 \value{
 A named list with the following elements:
-    \describe{
-        \item{\strong{request}}{a list with the request parameters}
-        \item{\strong{message}}{a list of status code(s) and message(s)
-            returned by the API}
-        \item{\strong{response}}{an XMLNode with the API-specific response
-            values. At this time, no further coercion is performed, so you
-            may have to use functions from the \code{XML} package to extract
-            the desired output.}
-    }
+\describe{
+\item{\strong{request}}{a list with the request parameters}
+\item{\strong{message}}{a list of status code(s) and message(s)
+returned by the API}
+\item{\strong{response}}{an XMLNode with the API-specific response
+values. At this time, no further coercion is performed, so you
+may have to use functions from the \code{XML} package to extract
+the desired output.}
+}
 }
 \description{
 For a specific loan amount, the GetMonthlyPayments API returns the estimated
@@ -56,4 +56,3 @@ GetMonthlyPayments(price = 300000L, down = 10)
 GetMonthlyPayments(price = 300000L, dollarsdown = 10000L)
 GetMonthlyPayments(price = 300000L, zip = 98109)}
 }
-
