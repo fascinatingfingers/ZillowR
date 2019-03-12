@@ -1,6 +1,11 @@
 
 # ZillowR
 
+[![pipeline status](https://gitlab.com/fascinatingfingers/zillowr/badges/master/pipeline.svg)](https://gitlab.com/fascinatingfingers/zillowr/pipelines)
+[![coverage report](https://gitlab.com/fascinatingfingers/zillowr/badges/master/coverage.svg)](https://gitlab.com/fascinatingfingers/zillowr/commits/master)
+
+---
+
 Zillow, an online real estate company, provides real estate and mortgage data
 for the United States through a REST API. The ZillowR package provides an R
 function for each API service, making it easy to make API calls and process the
@@ -49,16 +54,16 @@ GetMonthlyPayments(price = 300000L)
     #> $request
     #> $request$price
     #> [1] "300000"
-    #> 
-    #> 
+    #>
+    #>
     #> $message
     #> $message$text
     #> [1] "Request successfully processed"
-    #> 
+    #>
     #> $message$code
     #> [1] "0"
-    #> 
-    #> 
+    #>
+    #>
     #> $response
     #> <response>
     #>  <payment loanType="thirtyYearFixed">
