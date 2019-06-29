@@ -20,4 +20,4 @@ Suggests:
     testthat
 LazyData: TRUE
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1

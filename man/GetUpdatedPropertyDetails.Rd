@@ -4,7 +4,8 @@
 \alias{GetUpdatedPropertyDetails}
 \title{Make request to Zillow API GetUpdatedPropertyDetails Web Service}
 \usage{
-GetUpdatedPropertyDetails(zpid = NULL, zws_id = getOption("ZillowR-zws_id"),
+GetUpdatedPropertyDetails(zpid = NULL,
+  zws_id = getOption("ZillowR-zws_id"),
   url = "http://www.zillow.com/webservice/GetUpdatedPropertyDetails.htm")
 }
 \arguments{

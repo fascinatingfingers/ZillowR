@@ -7,11 +7,11 @@
 \title{ZillowR: R Interface to Zillow Real Estate and Mortgage Data API}
 \description{
 Zillow, an online real estate company, provides real estate and
-mortgage data for the United States through a REST API. The ZillowR package
-provides an R function for each API service, making it easy to make API
-calls and process the response into convenient, R-friendly data structures.
-See <http://www.zillow.com/howto/api/APIOverview.htm> for the Zillow API
-Documentation.
+    mortgage data for the United States through a REST API. The ZillowR package
+    provides an R function for each API service, making it easy to make API
+    calls and process the response into convenient, R-friendly data structures.
+    See <http://www.zillow.com/howto/api/APIOverview.htm> for the Zillow API
+    Documentation.
 }
 \seealso{
 Useful links:
